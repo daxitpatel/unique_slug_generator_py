@@ -11,7 +11,7 @@ def random_string_generator(size=4, chars=string.ascii_lowercase + string.digits
 
 
 #slug generator
-#in models.py => slug = models.CharField(unique=True, max_length=80)
+#in models.py => slug = models.SlugField(unique=True, max_length=80)
 
 from django.utils.text import slugify
 
